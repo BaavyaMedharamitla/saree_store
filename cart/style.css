@@ -1,0 +1,24 @@
+body {
+    font-family: Arial;
+    padding: 1rem;
+}
+.product-list {
+    display: flex;
+    gap: 1rem;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+button, input[type=submit] {
+    background: #880e4f;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 0.5rem;
+}
